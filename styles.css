@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Align items at the beginning and end of the container */
+    align-items: center; /* Center items vertically */
+    height: 69px;
+    border: 1px solid seashell;
+}
+
+.home-img{
+     width: 90rem;
+     height: auto;
+     margin: 2rem;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right !important; /* Center-align the list items */
+
+}
+
+.menu li {
+    display: inline-block; /* Display list items in a single row */
+    margin: 0 0.5rem; /* Add margin between list items */
+    
+}
+
+.menu li a {
+    text-decoration: underline; 
+    color: white;
+    cursor: pointer !important; /* Change cursor to pointer on hover */
+   
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem; /* Adjust the gap between images */
+}
+.gallery-item {
+    flex: 1 1 30rem; /* Adjust the width of each image */
+    max-width: 50rem; /* Set a maximum width for each image */
+    height: 40rem; /* Set a fixed height for each image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}
+
+.gallery-item-team {
+    flex: 1 1 20rem; /* Adjust the width of each image */
+    max-width: 15rem; /* Set a maximum width for each image */
+    height: 20rem; /* Set a fixed height for each image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}
+
+.team-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem; /* Adjust the gap between images */
+}
+
+.team-member{
+    flex: 1 1 20rem; /* Adjust the width of each image */
+    max-width: 20rem; /* Set a maximum width for each image */
+    height: 20rem; /* Set a fixed height for each image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}

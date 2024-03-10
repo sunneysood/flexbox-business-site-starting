@@ -4,6 +4,7 @@ body{
     color:seashell;
     background-color: black;
     opacity: 0.9;
+    margin: 3rem;
 
 }
 
@@ -18,7 +19,7 @@ body{
 .home-img{
      width: 90rem;
      height: auto;
-     margin: 2rem;
+     
 }
 
 .menu{
@@ -77,12 +78,12 @@ body{
     gap: 0.6rem; /* Adjust the gap between images */
 }
 
-.team-member{
+.team-member img{
     flex: 1 1 20rem; /* Adjust the width of each image */
     max-width: 20rem; /* Set a maximum width for each image */
     height: 20rem; /* Set a fixed height for each image */
     background-size: cover;
-    background-position: center;
+    /*background-position: center; */
     border-radius: 0.2rem;
     overflow: hidden;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */

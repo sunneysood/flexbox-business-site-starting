@@ -1,10 +1,15 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 1rem;
     color:seashell;
     background-color: black;
     opacity: 0.9;
     margin: 3rem;
+
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 
 }
 
@@ -78,13 +83,40 @@ body{
     gap: 0.6rem; /* Adjust the gap between images */
 }
 
-.team-member img{
-    flex: 1 1 20rem; /* Adjust the width of each image */
-    max-width: 20rem; /* Set a maximum width for each image */
-    height: 20rem; /* Set a fixed height for each image */
-    background-size: cover;
-    /*background-position: center; */
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: auto;
+    max-width: 20rem; /* Set a maximum width for each team member */
+}
+
+.team-member img {
+    width: 100%; /* Ensure the image fills the container */
+    max-height: 20rem; /* Set a maximum height for each image */
+    object-fit: cover;
     border-radius: 0.2rem;
     overflow: hidden;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}
+
+.member-details {
+    padding: 1rem;
+    text-align: center;
+}
+
+.company-info{
+    font-size: 1rem;
+    text-align: center;
+    border-top: 2px solid white;
+    padding: 1rem;
+}
+
+.copyright{
+    font-size: 0.5rem;
+    text-align: right;
+    border-top: 2px solid white;
+    padding: 1rem;
+
+
 }
